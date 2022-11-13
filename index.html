@@ -1,525 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta name="google-site-verification" content="9K89Uhf32Mwla9yqdQedHj-c9QfmVvlYnNmp_5YKNnA" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
     <meta charset="utf-8">
+    <title>Kalyan's Portfolio</title>
+    <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
-    <title>Kalyan Parimi ❤ GitHub</title>
-<!--
-Elegance Template
-https://templatemo.com/tm-528-elegance
--->
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
 
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+</head>
 
-    <link rel="stylesheet" href="css/templatemo-style.css">
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Kalyan's </span>Portfolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Professional Exp</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Publications</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="mailto: pskalyan070@gmail.com" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-    <link rel="stylesheet" href="css/responsive.css">
 
-    </head>
-    
-    <body>
-    
-    <div id="video">
-        <div class="preloader">
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <!-- Video Modal End -->
 
-        <header id="header">
-            <div class="container-fluid">
-                <div class="navbar">
-                    <a href="#" id="logo" title="Elegance by TemplateMo">
-                        <p style="font-family:'Candara'">Kalyan Parimi</p>
-                    </a>
-                    <div class="navigation-row">
-                        <nav id="navigation">
-                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                            <div class="nav-box navbar-collapse">
-                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
-                                    <li data-menuanchor="slide02"><a href="#slide02">About Me</a></li>
-                                    <li data-menuanchor="slide04"><a href="#slide04">My Skills</a></li>
-                                    <li data-menuanchor="slide05"><a href="#slide05">My Work</a></li>
-                                    <li data-menuanchor="slide06"><a href="#slide06">Publications</a></li>
-                                    <li data-menuanchor="slide07"><a href="#slide07">Testimonials</a></li>
-                                    <li data-menuanchor="slide08"><a href="#slide07">Contact Me</a></li>
-                                </ul>
-                            </div>
-                        </nav>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Kalyan Parimi</h1>
+                    <h6 class="text-white font-weight-normal mb-3">Published Author & Blogger (Data Analytics, Blockchain, Psychology)</h6>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Senior Data Analyst, Product Manager, Resident Data Scientist, Report Build Engineer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="https://drive.google.com/file/d/15MwiQptZGT_iz9uNUDR7fl59gyORb6Or/view?usp=sharing" class="btn btn-outline-light mr-5">Download my CV📃</a>
+                        <a href="https://www.linkedin.com/in/kalyanparimi/" class="btn btn-outline-light mr-5">Visit my LinkedIn💻</a>
+                        <a href="https://forms.gle/f4vVjkvjwRzwojF2A" class="btn btn-outline-light mr-5">Enquiries?❤️</a>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </div>
+    <!-- Header End -->
 
-        <video autoplay muted loop id="myVideo">
-          <source src="images/video-bg.mp4" type="video/mp4">
-        </video>
 
-        <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="slide01">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp"><P ALIGN=LEFT>I Analyze</P></span>
-                        <span class="welcome-first animate" data-animate="fadeInUp"><P ALIGN=LEFT>I Code</P></span>
-                        <span class="welcome-first animate" data-animate="fadeInUp"><P ALIGN=LEFT>I Visualize</P></span>
-                        <span class="welcome-first animate" data-animate="fadeInUp"><P ALIGN=LEFT>I Write</P></span>
-                        <div class="scroll-down next-section animate data-animate="fadeInUp""><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Senior Data Analyst & Product Manager</h3>
+                    <p align = "justify">As someone who has 4+ years of Hands-On experience in Data Analytics Pipeline & Product Development along with Ownership, I bring in the best of 3 Worlds - Business, Data & UX. I've been in 4-6 different roles across multiple Data Science and Analytics domains not just to develop analytical solutions, rather bring in Analytics capabilities within multiple Stakeholder & Internal teams, ranging across Renowed Gaming Firm, a Big Four and a Fortune 100 firm.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Kalyan Parimi</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Employed By: <span class="text-secondary">Electronic Arts, Deloitte USI, Accenture</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree(s): <span class="text-secondary">Masters in Management (Data Analytics), PGDM (Business Analytics), UG (Information Technology)</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Industries: <span class="text-secondary">Finance, Supply Chain, Global Audit & Gaming, Telecom, Pharma</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Key Impact: <span class="text-secondary">Data Science & Data Analytics Product Management</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">4 Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91-9100193223</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">pskalyan070@gmail.com</span></h6></div>
+                        
+                        
                     </div>
+                    <a href="https://www.linkedin.com/in/kalyanparimi/" class="btn btn-outline-primary mr-4">View my Profile</a>
+                    <a href="" class="btn btn-outline-primary">View my Projects</a>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-            <div class="section animated-row" data-section="slide06">
-                <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>About Me</span><br>
-                                                <h7>Data Enthusiast | Analyst | Researcher | Published Author & Blogger @ Academic.edu, Amazon, LAP Publications, WordPress |</h7><br><br>
-												<h7>Professional Industry Exp: Gaming - Product, Telecom (Top 10), Pharmaceutical (APAC Top 20), Manufacturing (EMER)</h7><br><br>
-                                                <p> Seasoned Data Analyst-Data Solution Engineer-Report Build Engineer-Business Technology Analyst carrying Data Analytics Experience across 4 unique Industries under 3 top firms ranging from Fortune 100, Big Four and Product-based.</p>
-                                            </div>
-                                            <div class="facts-list owl-carousel">
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-newspaper-o counter-icon" aria-hidden="true"></i><span class="count-number">13+</span> Publications
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-book counter-icon" aria-hidden="true"></i><span class="count-number">5</span> Books Authored
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-code counter-icon" aria-hidden="true"></i><span class="count-number">8+</span> Industry Projects
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i><span class="count-number">3+</span>Years Work Exp
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-keyboard-o counter-icon" aria-hidden="true"></i><span class="count-number">5+</span> Technologies Known
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/profile-girl.jpg" class="rounded" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Qualification Start -->
+<div class="container-fluid py-5" id="qualification">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">MANAGEMENT</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Leadership & Innovation</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- <h3 class="mb-4">Professional Expericence</h3> -->
+                <p align = "justify">
+                //write about what all you did at EA
+                // Product Management
+                //stakeholder Management
+                //advisory committee
+                //managerial decisons - around ownership and intenral teams
+                //SME for data data
+                //enhancing processes by creating an analytics roadmap
+                //risk assessment
+                //data discovery, understanding and proposing analytical solutions
+                //pushing analytics into daily tasks and standardization of tasks (VBA Automation & Cadency)   
+                </p>
+                <!-- <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Senior Data Analyst/Scientist</h5>
+                        <p class="mb-2"><strong>Electronic Arts</strong> | <small>2022 - 2023</small></p>
+                        <p><b>Roles:</b> Data Analyst, Audit/Finance Analyst, Data Solution Designer, Product ManagementRoles: Data Analyst, Audit/Finance Analyst, Data Solution Designer, Product Management
+                            <br><b>Skills:</b> Feature Engineering · Feature Testing · Snowflake · Data Mining · Alteryx BI + Visualization Solutions · Product Development · Product Management · Stakeholder Engagement · Data Analysis · Python (Programming Language) · SQL</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Data/Business Technology Analyst</h5>
+                        <p class="mb-2"><strong>Deloitte USI</strong> | <small>2021 - 2022</small></p>
+                        <p><b>Roles:</b>
+                            Data Solution Engineer, Data Engineer, Data Analyst, Business Technology Analyst
+                            
+                            <br><b>Responsibility:</b> 
+                            Development & Customization - Data Analytics, ETL Pipelines Development, Feature Engineering</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Associate Software Engineer</h5>
+                        <p class="mb-2"><strong>Accenture India</strong> | <small>2019 - 2021</small></p>
+                        <p><b>Role:</b> Python Automation Consultant-ABAP-PI/PO-Elemica
+                            <br><b>Responsibility:</b> Development & Customizations, Automations, Analysis</p>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Qualification End -->
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Profession</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Expericence & Education</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Professional Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Senior Data Analyst/Scientist</h5>
+                            <p class="mb-2"><strong>Electronic Arts</strong> | <small>2022 - 2023</small></p>
+                            <p align = "justify"><b>Roles:</b> Data Analyst, Audit/Finance Analyst, Data Solution Designer, Product ManagementRoles: Data Analyst, Audit/Finance Analyst, Data Solution Designer, Product Management
+                                <br><b>Skills:</b> Feature Engineering · Feature Testing · Snowflake · Data Mining · Alteryx BI + Visualization Solutions · Product Development · Product Management · Stakeholder Engagement · Data Analysis · Python (Programming Language) · SQL</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Data/Business Technology Analyst</h5>
+                            <p class="mb-2"><strong>Deloitte USI</strong> | <small>2021 - 2022</small></p>
+                            <p align = "justify"><b>Roles:</b>
+                                Data Solution Engineer, Data Engineer, Data Analyst, Business Technology Analyst
+                                
+                                <br><b>Responsibility:</b> 
+                                Development & Customization - Data Analytics, ETL Pipelines Development, Feature Engineering</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Associate Software Engineer</h5>
+                            <p class="mb-2"><strong>Accenture India</strong> | <small>2019 - 2021</small></p>
+                            <p align = "justify"><b>Role:</b> Python Automation Consultant-ABAP-PI/PO-Elemica
+                                <br><b>Responsibility:</b> Development & Customizations, Automations, Analysis</p>
                         </div>
                     </div>
+                    
                 </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide03">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h2>What I Do?</h2>
-                            </div>
-                            <div class="services-section">
-                                <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-                                            <h3>Data Analytics Solution Design</h3>
-                                            <p> 
-											<ul>
-												<li>Development & Customization - Data Analytics, ETL Pipelines Development, Feature Engineering.</li>
-												<li>Worked on AWS Environment as well as Azure environment for End-to-End Analytics.</li>
-												<li>Worked as data engineer/analyst for multiple telecommunication campaigns on feature generation from legacy CRM systems, building recommendations on decision engines and data migration to AWS analyzing future trends of business.</li>
-												<li>Transforming the raw data into actionable insights by using feature engineering techniques.</li>
-												<li>Reporting/Visualization of data drawn from the cloud services using Quicksight/Power BI.</li>
-												<li>Extracting huge data from millions of records via cloud services using AWS ETL tools.</li>
-												<li>Creation of jobs w.r.t data engineering to ingest data into fact tables.</li>
-												<li>Worked extensively on Power BI and AWS Quicksight while reducing 40-60% of Excel insights.</li>
-												<li>Assisted client in detailed requirement analysis.</li>
-											</ul>	
-											</p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>ETL Pipeline Development</h3>
-                                            <p>an iterative process, in which many models are derived, tested and built upon until a model fitting the desired criteria is built. Subsequent modelling work may need to begin the search at the same place as the original model building began, rather than where it finished.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
-                                            <h3>Reporting</h3>
-                                            <p>maximize or minimize a real function by systematically choosing input values from an allowed set and computing the value of the function. That means when we talk about optimization we are always interested in finding the best solution</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master In Management (Business & Data Analytics)</h5>
+                            <p class="mb-2"><strong>University of Windsor</strong> | <small>2023 - 2024</small></p>
+                            <p align = "justify">Pursuing Masters of Management in Business & Data Analytics. This program is aimed to launch Product Leaders into the tech space.
+                                <br>A 16-month program in which All students take the same required courses, regardless of their program: Accounting Concepts and Techniques, 
+                                Business Communication, Finance in a Global Perspective, Managing Employees, Marketing, International Business Quantitative Studies, Business Strategy.
+                            </p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide04">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Skills</span>
-                                <h2>What i’m good at?</h2>
-                            </div>
-                            <div class="skills-row animate" data-animate="fadeInDown">
-                                <div class="row">
-                                    <div class="col-md-8 offset-md-2">   
-                                        <div class="skill-item">
-                                            <h6>Data Engineering</h6>
-                                            <div class="skill-bar">
-                                                <span>80%</span>
-                                                <div class="filled-bar-1"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Reporting Tools</h6>
-                                            <div class="skill-bar">
-                                                <span>95%</span>
-                                                <div class="filled-bar-3"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Data Analytics</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item last-skill">
-                                            <h6>Problem Solving</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>
-                                        <div class="skill-item last-skill">
-                                            <h6>Business Analysis</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>          
-                                        </div>                   
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Post Graduate Diploma (Business Analytics)</h5>
+                            <p class="mb-2"><strong>Indian Institute of Management, Indore</strong> | <small>2020 - 2021</small></p>
+                            <p align = "justify">Grade: A<br>
+                                
+                                <b>Skills:</b> Statistical Analysis, Data Analysis, Data Cleaning, Dashboarding, Business Analytics, Client requirements, Big Data, Hadoop
+                                <br><b>Languages:</b> Python, R, PowerQuery
+                                <br><b>Tools:</b> Anaconda, JupyterLab, Jupyter NB, Power BI, Tableau, </p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h2>Capstone Real-Time Projects</h2>
-                                <h2></h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-4.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-5.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-6.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-7.jpg" alt="">
-                                            </div>
-                                           
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-8.jpg" alt="">
-                                            </div>
-                                           
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide08">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h3>Publications</h3>
-                                <h2></h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-10.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-9.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-11.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-12.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-13.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-14.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-15.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-16.jpg" alt="">
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide05">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>TESTIMONIALS</span>
-                                <h3>what THEY SAY?</h3>
-                            </div>
-                            <div class="col-md-8 offset-md-2">
-                                <div class="testimonials-section">
-                                    <div class="testimonials-slider owl-carousel">
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/profile-01.jpg" class="rounded-circle" alt="profile 1">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Dr. Pooja R</h4>
-                                                    <p>""Kalyan is a dedicated professional who constantly updates himself with the current technologies, along with research he holds a commendable specialization in SAP ABAP & PI. His way of analysing real-world problems and framing solutions using various technologies and implementing them is quite an impressive task to look at. He has been involved in various functional operations too, and is spreading his knowledge by blogging and authoring books.""</p>
-                                                    <span>Founder & Owner at Tatva Within</span>
-                                                </div>                                           
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/profile-02.jpg" class="rounded-circle" alt="profile 2">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Sri D Ambica</h4>
-                                                    <p>"I have known Kalyan personally for the last 2 years, he’s a developer, researcher, author and blogger. We have worked together on a research article, he is professional and sincere towards his work, he was awarded with doctorate recently, I am glad to get an opportunity to work with him."</p>
-                                                    <span>Quality Assurance Officer | Researcher</span>
-                                                </div>                                           
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/profile-03.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Dr. V.Kakulapati</h4>
-                                                    <p>"I have worked with Kalyan for 3 years now. Kalyan has been a great knowledgeable persons and proved many times owing his exceptional take on the subject matter (OOP languages). He is a thorough gentleman, who has often been commended on his mannerism. Hosting a pleasant personality, he is easily reachable and has been a great fellow researcher and human.
-
-                                                        As a professor I would like to take this opportunity to notify that Kalyan is exceptional at his work. His research projects and implementations in various languages such as Python, Solidity have always been awe-inspiring and quite mind-boggling.
-                                                        
-                                                        During one particular incident, Kalyan helped me in developing project deadlines and also has supported a few other research implementations at the international level."</p>
-                                                    <span>Professor</span>
-                                                </div>                                           
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contact</span>
-                                <h2>Get In Touch!</h2>
-                            </div>
-                            <div class="contact-section">
-                                <div class="row">
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <div class="contact-box">
-                                           
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> pskalyan070@gmail.com
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelors in Information Technology</h5>
+                            <p class="mb-2"><strong>Sreenidhi Institute of Science & Technology (JNTUH)</strong> | <small>2015 - 2019</small></p>
+                            <p align = "justify">4-years Bachelor's of Technology (Undergraduate course) in Information Technology with specialization in Big Data & Analytics</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Qualification End -->
 
-        <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="https://www.linkedin.com/in/kalyanparimi/" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/kalyanparimi" title="GitHub"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://drive.google.com/file/d/1vGoquO1YitpZ3iXfVCu_Reqy-lKdTS0W/view?usp=sharing" title="CV"><i class="fa fa-file-pdf-o"></i></a></li>
-                    <li><a href="https://mypartoflife.blog" title="Blog"><i class="fa fa-wordpress"></i></a></li>
-                    <li><a href="https://www.theteenpop.com/author/kalyan-parimi/" title="Blog"><i class="fa fa-globe"></i></a></li>
-                </ul>
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            
+            
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="100" height="100" style="margin: 10px 10px 10px 10px;" />
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original-wordmark.svg" width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"  width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"  width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+
+            <img src="img/Alteryx Logo.jpg"  width="100" height="100" style="margin: 10px 10px 10px 10px;"/>
+          
+          
+          
+          
+                            
+                    </div>
+                </div>
             </div>
         </div>
-    </div>  
-
-    <script src="js/jquery.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/fullpage.min.js"></script>
-
-    <script src="js/scrolloverflow.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <script src="js/jquery.inview.min.js"></script>
-
-    <script src="js/form.js"></script>
-
-    <script src="js/custom.js"></script>
+    </div>
+    <!-- Skill End -->
 
 
-  </body>
+
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Python - Analytics</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Blockchain - Analytics</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Full Stack Dev</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-search text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-search text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-search text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-search text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-search  text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-search text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+   
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Publications</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Publications</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        
+                    </div>
+                    <h8 class="font-weight-medium mb-4"><p align = "justify">Published by Lambart Publishers, This book talks about Protecting a patient/healthcare system from illegal/black-marketed drugs by 
+                        using blockchain based tracing system. The implementation of a blockchain-based voting system along with procedure and implementation have been mentioned.</p></h8>
+                    <p align = "Center"><a class="btn btn-sm btn-outline-primary py-2"  href="https://www.lap-publishing.com/catalog/details/store/gb/book/978-620-0-78634-0/protecting-patient-health-from-the-block-chain-drug-supply-chain">
+                        Read More</a></p>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                       
+                    </div>
+                    <h8 class="font-weight-medium mb-4"><p align = "justify">Published by Nova, This book talks about Extensive impact of COVID isolation among the elder age groups which played a key role in
+                        isolating elder age groups from their access to the generic public, thereby causing severe distress and anxiety among them. This data analytical research has been carried out by analyzing various
+                        public government data sources and representing them using a Python dashboards. 
+                    </p></h8>
+                    <p align = "Center"><a class="btn btn-sm btn-outline-primary py-2" href="https://novapublishers.com/shop/data-science-applications-of-post-covid-19-psychological-disorders/">Read More</a></p>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-5.jpg" alt="">
+                       
+                    </div>
+                    <h8 class="font-weight-medium mb-4"><p align = "justify">Illegal movement or the flow of drugs in the supply chain has always been the root cause of various criminal activities 
+                        involving pharmaceutical products. One such concern is the black-marketing of drugs by erasing the record of the drug from the registered supply chain and selling it on various 
+                        channels for many times the price with an alteration made to the drug itself. To counteract such methods, we have proposed a solution using one of the most prominent characteristics, 
+                        i.e., traceability, using which we can back-trace the route taken in the supply chain for the targeted drug on which the medical prescription is made.
+                    </p></h8>
+                    <p align = "Center"><a class="btn btn-sm btn-outline-primary py-2" href="https://link.springer.com/chapter/10.1007/978-3-031-08254-2_7">Read More</a></p>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        
+                    </div>
+                    <h8 class="font-weight-medium mb-4"><p align = "justify">Published by Amazon, This book narrates novel perspectives towards distinct issues faced by us humans using creative examples, such as
+                        "The Chalk Theory", "Toothpaste & Toothbrush Theory" & contains chapters which are designed to suit psychology for every age group, examples in each chapter are beyond your imagination, analysing a situation in various different perspectives.  
+                    </p></h8>
+                    <p align = "Center"><a class="btn btn-sm btn-outline-primary py-2" href="https://www.amazon.com/Beyond-Mundane-Glance-Psychology-Unfolded-ebook/dp/B07J5Q6LB2/ref=sr_1_1?crid=GHU8V7CTCQD7&keywords=kalyan+parimi&qid=1668360513&qu=eyJxc2MiOiIxLjE0IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=kalyan+parimi%2Caps%2C269&sr=8-1">Read More</a></p>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-4.jpg" alt="">
+                        
+                    </div>
+                    <h8 class="font-weight-medium mb-4"><p align = "justify">Published by Amazon, This book walks you through the write-ups from a blog onwed by me "mypartoflife.blog" which narrates
+                        multiple stories with psychological take-aways. Contains awe-inspiring sections such as "Letters Never Sent", "Tiny Tales" and more which were featured in multiple magazines too.
+                    </p></h8>
+                    <p align = "Center"><a class="btn btn-sm btn-outline-primary py-2" href="https://www.amazon.com/My-Part-Life-Stories-Letters-ebook/dp/B087YN2YGQ/ref=sr_1_2?crid=2J19BEB3UEBV3&keywords=kalyan+parimi&qid=1668361364&sprefix=kalyan+parim%2Caps%2C356&sr=8-2">Read More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+ <!-- Testimonial Start -->
+ <div class="container-fluid py-5" id="testimonial">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Reviews</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Colleagues & Mentors Say</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <h4 class="font-weight-light mb-4">I have worked with Kalyan for 3 years now. Kalyan has been a great knowledgeable persons and proved many times owing his exceptional take on the subject matter (OOP languages). He is a thorough gentleman, who has often been commended on his mannerism. Hosting a pleasant personality, he is easily reachable and has been a great fellow researcher and human.
+
+                            As a professor I would like to take this opportunity to notify that Kalyan is exceptional at his work. His research projects and implementations in various languages such as Python, Solidity have always been awe-inspiring and quite mind-boggling.
+                            
+                            During one particular incident, Kalyan helped me in developing project deadlines and also has supported a few other research implementations at the international level</h4>
+                        <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <h5 class="font-weight-bold m-0">Dr. V.Kakulapati</h5>
+                        <span>Sr. Professor (Big Data & Analytics)</span>
+                    </div>
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <h4 class="font-weight-light mb-4">Kalyan is a dedicated professional who constantly updates himself with the current technologies, along with research he holds a commendable specialization in SAP ABAP & PI. His way of analysing real-world problems and framing solutions using various technologies and implementing them is quite an impressive task to look at. He has been involved in various functional operations too, and is spreading his knowledge by blogging and authoring books.</h4>
+                        <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <h5 class="font-weight-bold m-0">Dr. Pooja R</h5>
+                        <span>Founder & Owner at Tatva Within</span>
+                    </div>
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <h4 class="font-weight-light mb-4">I have known Kalyan personally for the last 2 years, he’s a developer, researcher, author and blogger. We have worked together on a research article, he is professional and sincere towards his work, he was awarded with doctorate recently, I am glad to get an opportunity to work with him</h4>
+                        <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <h5 class="font-weight-bold m-0">Sri D Ambica</h5>
+                        <span>Quality Assurance Officer | Researcher</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Get in Touch</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <!-- <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div> -->
+                                <!-- <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button> -->
+                                    <a href="https://forms.gle/f4vVjkvjwRzwojF2A" class="btn btn-outline-primary">Send an Enquiry</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Kalyan Parimi's Portfolio</a>. All Rights Reserved. Designed by Kalyan Parimi <a class="text-white font-weight-bold" href="https://htmlcodex.com"></a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
